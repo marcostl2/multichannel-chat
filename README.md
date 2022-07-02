@@ -2,7 +2,7 @@
 
 ![Multichannel](./public/multichannel.png)
 
-#####[english]
+[english]
 
 Imagine that you have to create a socket connection on your frontend application.
 
@@ -22,7 +22,7 @@ To run the frontend:
 
 ---
 
-#####[português]
+[português]
 
 Imagine que você tenha que criar uma conexão de socket em sua aplicação frontend.
 
