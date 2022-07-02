@@ -1,17 +1,42 @@
-<img src="https://storage.googleapis.com/golden-wind/experts-club/capa-github.svg" />
+<h1 style="text-align:center">Multichannel app</h1>
 
-# Chats multicanais com Socket.io e React Hooks
+![Multichannel](./public/multichannel.png)
 
-Imagine que você receba um requisito na sua empresa, para criar uma solução de comunicação entre os departamentos.
+######[english]
 
-Hoje, há toda uma confusão na comunicação entre pessoas, algumas usam e-mail, outras outros meios.
+Imagine that you have to create a socket connection on your frontend application.
 
-Então você recebe a missão de resolver isso criando uma ferramenta para a empresa, onde cada departamento tenha seu próprio canal, e as pessoas possam se comunicar em tempo real!
+This project simulates a multi channel with sockets using socket.io and ReactJS.
 
-É isso que esse projeto resolve!
+To run the API:
 
-## Expert
+>
 
-| [<img src="https://avatars.githubusercontent.com/u/29175815?s=400&u=0fee7695511e1dfabdf5eaacd405853d4e69745c&v=4" width="75px;"/>](https://github.com/joaovbibiano) |
-| :-----------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                           [João Bibiano](https://github.com/joaovbibiano)                                                           |
+    yarn dev
+
+To run the frontend:
+
+>
+
+    yarn dev
+
+---
+
+######[português]
+
+Imagine que você tenha que criar uma conexão de socket em sua aplicação frontend.
+
+This project simulates a multi channel with sockets using socket.io.
+Este projeto simula multi canais usando com sockets usando socket.io e ReactJS.
+
+Para rodar a API:
+
+>
+
+    yarn dev
+
+Para rodar a frontend:
+
+>
+
+    yarn dev

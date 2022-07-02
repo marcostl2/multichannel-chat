@@ -1,4 +1,4 @@
-import { v4 as uuid } from "uuid";
+import { v4 as uuid } from 'uuid';
 
 // Example
 // [
@@ -44,5 +44,11 @@ export class Chat {
 
   getChannel(channelId) {
     return this.channels.find((channel) => channel.id === channelId);
+  }
+
+  userIsTyping(userName) {
+    if (!userName) return '';
+
+    return userName;
   }
 }

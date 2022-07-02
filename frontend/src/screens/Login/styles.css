@@ -1,0 +1,26 @@
+.login-screen {
+  max-width: 400px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.login-screen h1 {
+  margin-top: 0;
+}
+
+.form-login {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-login input {
+  width: 100%;
+}
+
+.form-login label {
+  font-size: 14px;
+  margin-bottom: 8px;
+}

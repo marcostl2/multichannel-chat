@@ -1,0 +1,20 @@
+.chat-screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat-screen-header .chat-screen-header-info {
+  display: flex;
+  flex-direction: column;
+  margin: 16px 0 24px;
+}
+
+.chat-screen-header .chat-screen-header-info p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.chat-screen-header .chat-screen-header-info h5 {
+  margin: 0px;
+}

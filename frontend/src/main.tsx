@@ -1,11 +1,15 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-import App from "./App";
+import { ChannelContextProvider } from './context/ChannelContext';
+
+import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ChannelContextProvider>
+      <App />
+    </ChannelContextProvider>
   </React.StrictMode>,
-  document.getElementById("root")
+  document.getElementById('root')
 );

@@ -1,0 +1,15 @@
+.channel-create-screen {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.channel-create-screen form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.channel-create-screen form input {
+  width: 100%;
+}
